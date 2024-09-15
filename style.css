@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.container1{
+    margin:20px;
+    width:325px;
+    background-color:black;
+    color: white;
+    height:250px;
+    padding:10px;
+    border-radius: 20px;
+    margin-left: 70px;
+    padding-left:20px;
+    margin-top:43px;
+    display:block;
+    
+}
+.container{
+    display:flex;
+}
+.head{
+    background-color: #FF8389;
+}
+.h2{
+    color:#FF8389;
+}
+h4{
+    text-underline-offset: 3px;
+}
+.delete{
+    background-color: #FF8389;
+    color:black;
+    padding:2px;
+    margin-top:10px;
+    width:100px;
+    height:30px;
+    font-size:20px;
+    border-radius:15px;
+}
+#top{
+    padding:10px;
+}
+.overlay{
+    background-color: black;
+    height:100%;
+    width:100%;
+    z-index:1;
+    position:fixed;
+    top :0;
+    left:0;
+    opacity: 0.6;
+    display:none;
+    
+}
+#p{
+    background-color: #FF8389;
+    border-radius: 100%;
+    font-size:60px;
+    width:60px;
+    text-align: center;
+    position:absolute;
+    left:1200px;
+    margin-top:150px;
+    outline: none;
+}
+.pop{
+    background-color:#FF8389;
+    height:300px;
+    width:550px;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 3;
+    left:450px;
+    top:150px;
+    border-radius: 30px;
+    display:none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    
+    
+}
+.pophead{
+     text-align: center;
+}
+#poptittle{
+    width:500px;
+    height:50px; 
+    background-color: #FF8389;
+    border:none;
+    border-bottom: 2px solid black;
+    margin:10px;
+    font-size:50px;
+   
+}
+input::placeholder{
+    font-size:40px;
+    
+}
+#popauthor{
+    width:500px;
+    height:50px; 
+    background-color: #FF8389;
+    border:none;
+    border-bottom: 2px solid black;
+    margin:10px;
+    font-size:50px;
+}
+#popdescription{
+    width:500px;
+    height:50px; 
+    background-color: #FF8389;
+    
+    border: 2px solid black;
+    margin:10px;
+    font-size:50px;
+}
+#popadd{
+    background-color: black;
+    color:white;
+    padding:8px;
+    font-size: 15px;
+    border-radius: 8px;
+    width:90px;
+    margin-left:20px;
+}
+#popcancel{
+    background-color: black;
+    color:white;
+    padding:8px;
+    font-size: 15px;
+    border-radius: 8px;
+    width:90px;
+    margin-left:20px;
+}
